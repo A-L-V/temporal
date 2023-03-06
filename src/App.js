@@ -3,7 +3,6 @@ import './App.css';
 import { BrowserRouter, Route, Link, Routes } from 'react-router-dom';
 import './index.css';
 import HomeScreen from './screens/HomeScreen';
-import ProductsScreen from './screens/ProductsScreen';
 function App() {
   return (
     <BrowserRouter>
@@ -30,7 +29,6 @@ function App() {
       <main className="main">
         <div className="content">
         <Routes>
-              <Route path="/products" element={<ProductsScreen />} />
               <Route path="/" exact element={<HomeScreen />} />
             </Routes>
 

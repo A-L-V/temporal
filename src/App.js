@@ -10,7 +10,6 @@ function App() {
         <div className="brand">
           <Link to="/">
             <img src='https://plazavea.vteximg.com.br/arquivos/LogoPlazaVea.svg' alt='imagen'/>            
-
           </Link>
         </div>
         <div className="header-links">

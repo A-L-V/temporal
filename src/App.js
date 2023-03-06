@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import { BrowserRouter, Route, Link, Routes } from 'react-router-dom';
+import './index.css';
 
 function App() {
   return (
@@ -27,10 +28,10 @@ function App() {
       </header>
       <main className="main">
         <div className="content">
-          <Routes>
-            <Route path="/products"  />
-            <Route path="/" exact  />
-          </Routes>
+        <Routes>
+              <Route path="/products" element={<ProductsScreen />} />
+              <Route path="/" exact element={<HomeScreen />} />
+            </Routes>
 
         </div>
       </main>

@@ -18,7 +18,7 @@ import {
 import axios from 'axios';
 import Axios from 'axios';
 
-const API="https://soarest-env-1.eba-rusdbpg3.us-east-1.elasticbeanstalk.com/producto"
+const API="http://soarest-env-1.eba-rusdbpg3.us-east-1.elasticbeanstalk.com/producto"
 
 const listProducts = () => async (dispatch) => {
   try {
